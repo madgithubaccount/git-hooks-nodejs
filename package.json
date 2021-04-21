@@ -19,6 +19,5 @@
       "pre-commit": "npm test"
     }
   },
-  "dependencies": {},
-  "prepare": "husky install"
+  "dependencies": {}
 }
