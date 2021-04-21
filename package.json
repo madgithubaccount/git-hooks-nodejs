@@ -8,7 +8,8 @@
     "test": "jest",
     "lint": "eslint src/**",
     "lint-fix": "eslint src/** --fix",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "post-commit": "echo Thanks for committing $GIT_AUTHOR_NAME"
   },
   "keywords": [],
   "author": "",
